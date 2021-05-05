@@ -266,6 +266,7 @@ h3 {
     border-radius: 20px;
     padding: 44px 36px 44px 36px;
     max-width: 805px;
+    max-height: 640px;
 }
 
 .container_item {
@@ -274,7 +275,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .container_item a:hover {
@@ -309,10 +310,6 @@ h3 {
    
 }
 
-.photo_hebergement:hover {
-
-    background-color: white;
-}
 
 .hebergement_contenu {
     display: flex;
@@ -324,11 +321,6 @@ h3 {
 
 .titre_contenu {
     padding-top: 11px;
-    padding-bottom: 11px;
-}
-
-.prix_contenu {
-    padding-bottom: 11px;
 }
 
 .hebergement_etoile {
@@ -348,5 +340,188 @@ h3 {
 
 .fas.fa-star.grey-star {
     color: grey;
+}
+
+/*Les plus populaires*/
+
+#Acommandation {
+
+    display: flex;
+    flex-direction: column-reverse;
+}
+.titre_popularite {
+    display: flex;
+    flex-direction: row;
+}
+
+.titre_les_plus_populaires {
+    font-size: large;
+    margin-bottom: 25px;
+}
+
+.fa-chart-line {
+    color: black;
+}
+
+#container_hebergements_populaires {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 30px 38px 31px 45px;
+    max-width: 345px;
+}
+
+.hebergement_les_plus_populaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.box_populaire_carte {
+    border: 3px solid white;
+    border-radius: 20px;
+    display: flex;
+    background-color: white;
+    padding: 6px 58px 6px 6px;
+    max-width: 284px;
+    max-height: 150px;
+    margin-bottom: 29px;
+}
+
+.hebergement_les_plus_populaires a:hover {
+
+    text-decoration: none;
+    color: #0065FC;
+    border-top: 0px;
+    padding-top: 0px;
+}
+
+.photo_populaire {
+    width: 140px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.hebergement_populaire_contenu {
+    padding: 7px 0px 7px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.populaire_etoile {
+    max-width: 94px;
+    max-height: 10px;
+    color: #0065FC;
+}
+
+/*Activités à Marseille*/
+
+
+#Activite {
+    width: 80%;
+  }
+
+  .nomactivite h3 {
+      font-size: small;
+      font-weight: bold;
+      font-style: normal;
+  }
+  .containerActivites {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 496px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+  }
+  .blocActivite {
+    width: 23%;
+  }
+  .Activite {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 16px #0000002e;
+  }
+
+  .titresection {
+    color: black;
+    font-size: 1.3em;
+    padding-left: 8px;
+  }
+  .Activite img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  .activite1et4img {
+    height: 420px;
+  }
+  .activite2img {
+    height: 200px;
+  }
+  .activite3img {
+    height: 110px;
+  }
+  .activite5img {
+    height: 140px;
+  }
+  .activite6img {
+    height: 140px;
+  }
+  .nomactivite {
+    padding: 0 0px 5px 20px;
+  }
+  .Activite2 {
+    margin: 0px 0px 61px;
+  }
+  .Activite5 {
+    margin: 0px 0px 92px;
+  }
+
+
+
+/***footer***/
+
+footer{
+    background-color:  #f2f2f2;
+}
+
+footer ul {
+
+    list-style-type: none;
+    padding: 0px;
+    line-height: 25px;
+}
+
+footer ul a:hover{
+    text-decoration: none;
+    color: #0065FC;
+    border-top: 0px;
+    padding-top: 0px;
+}
+
+.contenu-footer{
+    display: flex;
+    align-items: flex-start;
+}
+
+#apropos, #nos_hebergements, #assistance{
+    margin: 80px;
+    color: black;
+}
+
+#apropos h4, #nos_hebergements h4, #assistance h4{
+   
+    color: black;
+}
+
+footer a {
+    text-decoration: none;
 }
 
