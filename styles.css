@@ -12,6 +12,10 @@
 
 /*General*/
 
+body {
+    margin: 15px;
+}
+
 .container {
     width: 100%;
     margin: auto;
@@ -81,7 +85,7 @@ header nav {
     font-weight: bold;
     margin-right: 10px;
     text-decoration: none;
-    padding-left: 50px;
+    
 }
 
 .sinscrireLien a:hover {
@@ -219,16 +223,14 @@ header nav {
     color: #0065FC;
     font-size: 1.5em;
 }
-
+.fas .fa {
+    text-align: center;
+}
 
 h3 {
     font-size: small;
     font-style: italic;
     font-weight: normal;
-}
-
-.nombre_logements {
-    margin: 0px 0px 35px 17px;
 }
 
 .filtre-bouton:hover {
@@ -248,6 +250,7 @@ h3 {
     align-items: center;
     padding: 5px;
     margin-right: 10px;
+    text-align: center;
     
 }
 
@@ -399,7 +402,7 @@ h3 {
     border-radius: 20px;
     display: flex;
     background-color: white;
-    padding: 6px 58px 6px 6px;
+    padding: 6px 50px 6px 6px;
     max-width: 284px;
     max-height: 150px;
     margin-bottom: 29px;
@@ -574,11 +577,6 @@ footer a {
         font-size: small;
     }
 
-    #recherche-section {
-        
-        padding-left: 60px;
-        
-    }
 
     #hebergement {
          flex-direction: column-reverse;
@@ -634,7 +632,6 @@ footer a {
 
    .hebergements-activites {
 
-    padding-top: 30px;
    } 
 
   .containerActivites {
