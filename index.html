@@ -13,25 +13,22 @@
 </head>
 
 <body>
-    <main class="container">
-        <!--Header-->
-        <header>
-           
-            <nav>
-                  <img id="logo" src="images/logo/Reservia@3x.png" alt="Logo de Reservia" />
-                   
-                
-                <div class="hebergements-activites">
-                    <a class="herbergementsLien" href="#Herbergements">Hébergements</a>
-                    <a class="activitesLien" href="#Marseille">Activités</a>
-                    
-                </div>
-                <a class="sinscrireLien" href="#">S'inscrire</a>
-               
+    <div id="main">
+        <!-- Header -->
+        <header class="headernav">
+            <div class="logo">
+                <img src="images/logo/Reservia@3x.png" alt="Reservia">
+            </div>
+            <!-- Navigation -->
+            <nav class="headernav">      
+                <ul class="headernav">
+                    <li><a href="#hotelsAncre">Hébergements</a></li>
+                    <li><a href="#activitiesAncre">Activités</a></li>
+                </ul>
             </nav>
+            <a href="" class="sinscrire">S'inscrire</a>
         </header>
-        <section id="search">
-
+   
          <!--Titre principal-->
 
          <div class="headertrouvez">
@@ -53,8 +50,7 @@
                     <i class="fas fa-map-marker-alt fa-lg"></i>
                 </div>
                 <input type="search" class="type-recherche" placeholder="Marseille, France" name="location-recherche">
-                <button class="rechercher"><span>Rechercher</span></button>
-                <button class="rechercher_loupe"><span><i class="fas fa-recherche"></i></span></button>
+                <button class="rechercher"><span>Rechercher</span><i class="fas fa-search"></i></button>
             </div>
         </div>
     </div>
@@ -100,7 +96,7 @@
 
 <section id="hebergement">
     <div id="hebergements_a_marseille">
-        <h2 class="titre_hebergements_a_marseille">Hébergements à Marseille</h2>
+        <h2 class="titre_hebergements_a_marseille" id="hotelsAncre">Hébergements à Marseille</h2>
         <div class="container_item">
            <a href="#">
                 <div class="boite_carte">
@@ -299,7 +295,7 @@
 <!--Activités à Marseille-->
 
 <section id="Activites">
-    <h2 class="titresection" id="ancreActivites">Activités à Marseille</h2>
+    <h2 class="titresection" id="activitiesAncre" >Activités à Marseille</h2>
     <div class="containerActivites">
         <div class="blocActivite Activite">
             <a href="#">
