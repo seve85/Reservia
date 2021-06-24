@@ -316,6 +316,7 @@ h3 {
     object-fit: cover;
     width: 236px;
     height: 112px;
+    padding: 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
    
@@ -432,8 +433,9 @@ h3 {
 .photo_populaire {
     width: 140px;
     object-fit: cover;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .hebergement_populaire_contenu {
@@ -614,8 +616,8 @@ footer a {
     .photo_populaire {
         width: 400px;
         object-fit: cover;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
     }
 
     #Activites {
@@ -729,6 +731,8 @@ footer a {
         display: inline-block;
 
     }
+
+   
 
     .titre_les_plus_populaires {
         font-size: large;
